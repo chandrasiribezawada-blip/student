@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Colleges{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-3">Colleges List</h1>
+
+    <ul class="list-group">
+        {% for college in colleges %}
+            <li class="list-group-item list-group-item-info">
+                {{ college }}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
