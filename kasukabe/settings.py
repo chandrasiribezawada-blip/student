@@ -126,3 +126,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR/"kasukabe"/"static"]
+STATIC_ROOT = '/home/VarshinBezawada.pythonanywhere.com/final/staticfiles'
